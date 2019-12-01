@@ -1,0 +1,64 @@
+html,body {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 18px;
+  background: #f7f7f7;
+}
+
+h1{
+   font-size: 50px;
+   font-weight: 25;
+   letter-spacing: 1px;
+   line-height: 60px;
+}
+
+.separator{
+   margin:60px;
+}
+.small-separator{
+   margin:10px;
+}
+
+.large-header {
+   position: relative;
+   width: 100%;
+   background: #111;
+   overflow: hidden;
+   background-size: cover;
+   background-position: center center;
+   z-index: 1;
+}
+
+.txt-rotate{
+   font-size: 50px;
+   font-weight: 1000;
+   color: #2196F3;
+   letter-spacing: 1px;
+   line-height: 60px;
+}
+
+.demo .large-header {
+   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
+}
+
+.main-title {
+   position: absolute;
+   margin: 0;
+   padding: 0;
+   color: #F9F1E9;
+   top: 30%;
+   left: 10%;
+}
+
+.image{
+   position: absolute;
+   padding-top:15%;
+   padding-right: 15%;
+   right: 0px;
+   top: 0px;
+   height: 50%;
+   width: 20%;
+}
+
+.image >img{
+   border-radius: 50%;
+}
