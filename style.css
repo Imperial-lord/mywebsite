@@ -104,7 +104,7 @@ img{
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   img{
   height : 200px;
   width : 200px;
