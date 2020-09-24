@@ -1,144 +1,137 @@
-body,html{
-  font-family: 'Baloo Chettan 2', cursive;
-  font-weight: lighter;
-  font-size: 15px;
-  background: #f7f7f7;
-  transition: all 0.6s;
-  letter-spacing: 1.2px;
-  color: #333;
+body,
+html {
+    font-family: 'Baloo Chettan 2', cursive;
+    font-weight: lighter;
+    font-size: 15px;
+    background: #f7f7f7;
+    transition: all 0.6s;
+    letter-spacing: 1.2px;
+    color: #333;
 }
 
-.separator{
-   margin:100px;
-}
-.small-separator{
-   margin:10px;
+.separator {
+    margin: 100px;
 }
 
-.desc{
-  font-size: 20px;
-  line-height: 30px;
-  letter-spacing: 1.5px;
+.small-separator {
+    margin: 10px;
 }
 
-.txt-rotate{
-  font-family: 'Varela Round', sans-serif;
-  font-size: 40px;
-  font-weight: 1000;
-  color: #f46c93;
-  line-height: 60px;
+.desc {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
 }
 
-.greeting{
-  font-size: 40px;
-  line-height: 60px;
+.txt-rotate {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 40px;
+    font-weight: 1000;
+    color: #f46c93;
+    line-height: 60px;
 }
 
-img{
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  display: block;
-  margin: auto;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-style: none;
-  height: 380px;
-  width: 380px;
-  border-radius: 50%;
-  margin-left: 20px;
+.greeting {
+    font-size: 40px;
+    line-height: 60px;
 }
 
-.intro{
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-style: none;
+    height: 380px;
+    width: 380px;
+    border-radius: 50%;
+    margin-left: 20px;
 }
 
-.links{
-  color: #6e549b;
+.intro {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
-.heading{
-  color: #f46c93;
-  font-weight: 1000;
-  font-size: 18px;
+.links {
+    color: #6e549b;
 }
 
-.links:hover{
-  background: #6e549b;
-  color: #fff;
-  text-decoration: none;
+.heading {
+    color: #f46c93;
+    font-weight: 1000;
+    font-size: 18px;
 }
 
-.normal-link{
-  color: #2f2442;
-  font-size: 16px;
-  font-weight: 1000;
-  text-decoration: none;
+.links:hover {
+    background: #6e549b;
+    color: #fff;
+    text-decoration: none;
 }
 
-.normal-link:hover{
-  color: #2f2442;
-  font-weight: 1000;
-  text-decoration: none;
+.normal-link {
+    color: #2f2442;
+    font-size: 16px;
+    font-weight: 1000;
+    text-decoration: none;
 }
 
-.links.heading{
-  color: #6e549b;
-  text-align: center;
+.normal-link:hover {
+    color: #2f2442;
+    font-weight: 1000;
+    text-decoration: none;
 }
 
-.links.heading:hover{
-  background: #6e549b;
-  color: #fff;
-  text-decoration: none;
+.links.heading {
+    color: #6e549b;
+    text-align: center;
 }
 
+.links.heading:hover {
+    background: #6e549b;
+    color: #fff;
+    text-decoration: none;
+}
 
-
-
-@media (max-width: 1024px){
-  img{
-    height: 250px;
-    width: 250px;
-  }
+@media (max-width: 1024px) {
+    img {
+        height: 250px;
+        width: 250px;
+    }
 }
 
 @media (max-width: 700px) {
-  img{
-  height : 200px;
-  width : 200px;
-  top: -50%;
-  display: block;
-  margin: auto;
-  }
-
-  footer{
-    display: none;
-  }
-
-  .greeting{
-    font-size: 30px;
-    line-height: 40px;
-  }
-
-  .txt-rotate{
-    font-size: 30px;
-    line-height: 40px;
-  }
-
-  .desc{
-    font-size: 16px;
-  }
-
-  .vcenter{
-    text-align: center;
-  }
+    img {
+        height: 200px;
+        width: 200px;
+        top: -50%;
+        display: block;
+        margin: auto;
+    }
+    footer {
+        display: none;
+    }
+    .greeting {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .txt-rotate {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .desc {
+        font-size: 16px;
+    }
+    .vcenter {
+        text-align: center;
+    }
 }
 
-@media (max-height: 998px)
-{
-  .container.coverpage{
-    height: 980px;
-  }
+@media (max-height: 998px) {
+    .container.coverpage {
+        height: 980px;
+    }
 }
